@@ -1,3 +1,10 @@
+//
+//  HelaPayLinkHandler.swift
+//  HelaPay Links
+//
+//  Created by HelaPay on 2022-02-09.
+//
+
 import Foundation
 import UIKit
 
@@ -19,8 +26,11 @@ final class HelaPayLinkHandler{
     init(){
         taskDelegate = HelaPayLinkHandlerDelegate()
         if HelaPayLinkHandler.session == nil{
+            let config = URLSessionConfiguration.default
+            config.timeoutIntervalForResource = 5
+            config.timeoutIntervalForResource = 10
             HelaPayLinkHandler.session = URLSession(
-                configuration: URLSessionConfiguration.default,
+                configuration: config,
                 delegate: taskDelegate,
                 delegateQueue: nil
             )
