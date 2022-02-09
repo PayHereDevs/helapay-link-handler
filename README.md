@@ -2,15 +2,18 @@
 
 ## Setup
 
-To properly handle හෙළPay Links in your iOS WebView project, you will need this helper class.
+Clone this repo.
+```
+git clone https://github.com/PayHereDevs/helapay-link-handler.git
+```
 
-- `helapay-links/HelaPayLinkHandler.swift`
+To properly handle හෙළPay Links in your iOS WebView project, you will need the following helper class.
 
-First, clone this repo.
+```
+helapay-links/HelaPayLinkHandler.swift
+```
 
-- `https://github.com/PayHereDevs/helapay-link-handler.git`
-
-Next, copy it into your Xcode project. Follow __one__ of the following steps, depending on whether you use `UIWebView` or `WKWebView`.
+Copy it into your Xcode project. Follow __one__ of the following steps, depending on whether you use `UIWebView` or `WKWebView`.
 
 ### For `UIWebView`
 
