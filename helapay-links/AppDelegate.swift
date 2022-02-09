@@ -7,7 +7,7 @@
 
 import UIKit
 
-let targetURL = "https://orangegrounds.space/test/helapay/testpage.php"
+let targetURL = "https://orangegrounds.space/test/helapay/"
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
